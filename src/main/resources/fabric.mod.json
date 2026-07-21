@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "pelmenvisuals",
+  "version": "${version}",
+  "name": "Pelmen Visuals",
+  "description": "A fabric mod with HUD, GUI and visual features",
+  "authors": [
+    "tratil240-bit"
+  ],
+  "contact": {
+    "homepage": "https://github.com/tratil240-bit/PelmenVisuals",
+    "sources": "https://github.com/tratil240-bit/PelmenVisuals"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.pelmenvisuals.PelmenVisualsClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "~1.21",
+    "java": ">=17"
+  }
+}
